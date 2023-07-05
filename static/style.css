@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: black;
+    padding: 12px 14px;
+    font-family: cursive;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#navbar li{
+    list-style: none; 
+    /* remove dots */
+}
+
+#navbar li a{
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+
+#navbar li a:hover{
+    color: burlywood;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 13px 30px;
+    font-weight: bold;
+}
+
+
+#introSection{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+    font-size: 35px;
+    justify-content: center;
+    background: center / cover no-repeat url("/static/bg.jpg"); 
+    height: 425px;
+    background-color: red;
+}
+
+#introSection div.small{
+    font-size: 28px;
+    padding: 2px;
+}
+
+#sponsorsSection{
+    height: 215px;
+    background-color: yellow;
+}
+
+#sponsorsSection h1{
+   text-align: center;
+   padding-top: 14px;
+   font-family: serif;
+}
+
+.spImage{
+    height: 64%;
+    margin: 10px;
+}
+
+#sponsors{
+    height: 178px;
+    max-width: 1451px;
+    margin: auto
+}
+
+#missionSection{
+    height: 300px;
+    background-color: rgb(92, 236, 224);
+    width: 100%;
+    margin: auto;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 8px;
+    height: 208px;
+    background-color: antiquewhite;
+
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    
+}
+
+.card-img{
+    height: 133px;
+  padding: 0px 115px;
+  margin: 15px 12px;
+}
+
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+    /* font-family: arial; */
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.card-img img{
+    height: inherit;
+}
+
+
+
+#footer{
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+
+
+}
